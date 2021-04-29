@@ -11,6 +11,7 @@ function App() {
                 <Route path='/'>
                     <Header />
                     <Banner />
+                  
                 </Route>
             </Switch>
         </Router>
