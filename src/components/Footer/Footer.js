@@ -40,7 +40,7 @@ const Footer = () => {
                 </div>
 
                 <div className='footer-bottom d-flex justify-content-between align-items-center'>
-                    <small className='text-secondary'>Copyright &copy; 2020 Red Onion Restaurant </small>
+                    <small className='text-secondary'>Copyright &copy; 2021 Red Onion Restaurant </small>
                     <ul className='list-inline'>
                         <li className='list-inline-item ml-3'>
                             <a href='#'>Privacy Policy.</a>

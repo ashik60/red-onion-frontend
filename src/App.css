@@ -4,3 +4,7 @@
     padding-right: 20px;
     background-color: #ff4565;
 }
+a:hover {
+    text-decoration: none;
+    color: #ff4565;
+}
