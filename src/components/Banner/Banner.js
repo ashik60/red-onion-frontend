@@ -17,7 +17,7 @@ const Banner = () => {
                         id='query'
                         className='form-control'
                     />
-                    <Link to={'/search' + searchQuery}>
+                    <Link to={'/search=' + searchQuery}>
                         <button
                             onClick={() => window.scrollBy(0, 500)}
                             className='btn btn-danger btn-rounded search-btn '

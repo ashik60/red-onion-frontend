@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import FoodItem from '../FoodItem/FoodItem';
 import './Foods.css';
 
@@ -36,11 +37,11 @@ const Foods = (props) => {
                     ))}
                 </div>
                 <div className='text-center'>
-                    {/* {props.cart.length && (
+                    {props.cart.length && (
                     <Link to='/checkout'>
                         <button className='btn btn-secondary'>Check Out Your Food</button>
                     </Link>
-                )} */}
+                )}
                 </div>
             </div>
         </section>
